@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color:  #f4f4f4;
+            color: #333;
+        }
+        header{
+            text-align: center;
+            background-color: rgb(24, 24, 24) ;
+            color: white;
+            padding: 15px;
+        }
+        nav{
+            text-align: center;
+            background-color: #3d3d3d;
+            padding: 25px ;   
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding: 25px;
+        }
+        nav a:hover{
+            color: black;
+            background-color: rgb(58, 180, 160);
+            padding: 15px;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 20px; 
+        }
+        article {
+            background: #e8e8e8;
+            padding: 15px;
+            border-left: 8px solid rgb(58, 180, 160);
+        }
+        aside { 
+            background: #ddd; 
+            padding: 15px; 
+            margin-top: 10px; 
+        }
+        footer { 
+            background: #222; 
+            color: white; 
+            text-align: center; 
+            padding: 10px; 
+            margin-top: 20px; 
+        }
+        blockquote { 
+            border-left: 5px solid rgb(58, 180, 160); 
+            padding-left: 10px; 
+            color: #666; 
+            font-style: italic; 
+        }
+        code { 
+            background: #333; 
+            color: rgb(58, 180, 160); 
+            padding: 2px 5px; 
+            border-radius: 3px; 
+        } 
+        mark{
+            background-color:rgb(58, 180, 160) ;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Advanced Semantic Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about" >About</a>
+        <a href="#articles" >Articles</a>
+        <a href="#resources" >Resources</a>
+        <a href="#contact" >Contact</a>
+    </nav>
+    <main>
+
+        <section id="about">
+            <h2>About This Page</h2>
+            <pr>This page demonstrates the power of<strong> HTML5 semantic elements </strong> and proper structuring with <mark>accessible and user-friendly</mark> design.</pr>
+        </section>
+
+        <section id="articles">
+            <h2>Featured Articles</h2>
+        
+            <article>
+                <h3>Understanding Semantic HTML</h3>
+                <p>Using semantic elements like <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> enhances readability and SEO.</p>
+    
+                <h3>Why Accessibility Matters</h3>
+                <blockquote>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." - Tim Berners-Lee</blockquote>
+            
+            </article>
+        
+            <aside>
+                <h3>Did You Know?</h3>
+                <pr>The HTML specification continues to evolve, bringing better support for accessibility.</pr>
+            </aside>
+        </section>
+        
+        <section id="resources">
+            <h2>Useful Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://web.dev/" target="_blank" rel="noopener noreferrer">Google Web.dev</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>&copy; 2025 Advanced Webpage. All Rights Reserved.</p>
+        <p>contact +1234567890</p>
+    </footer>
+</body>
+</html>
